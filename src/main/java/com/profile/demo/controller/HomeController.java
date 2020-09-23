@@ -19,6 +19,6 @@ public class HomeController {
     @GetMapping("/home")
     @ResponseBody
     public String home() {
-        return "this is home/home page: active:"+activestr+";  orig:"+origstr;
+        return "this is home/home page<br/> active:"+activestr+"<br/>  orig:"+origstr;
     }
 }
